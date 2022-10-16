@@ -1,0 +1,440 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* esconder scrollbar no: chrome, safari, edge, opera */
+    
+         ::-webkit-scrollbar {
+            display: none;
+        }
+        /* esconder scrollbar no: internet explorer*/
+        body {
+            -ms-overflow-style: none;
+        }
+        /* esconder scrollbar no: firefox*/
+        
+        html {
+            scrollbar-width: none;
+        }
+
+        /* botão de scroll */
+        .scrollButton{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            background-color: crimson;
+            position: fixed;    
+            z-index: 999;
+            cursor: pointer;
+            left: 95%;
+            top: 80%;
+            font-size: 20px;
+            color: none;
+        }
+
+        .scrollButton > i{color: #fff; 
+            outline:none;}
+        
+        .scrollButton > i:hover{
+            color: #000;
+            transition: 0.5s;
+        }
+
+        header {
+            background-color: black;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+            list-style: none;
+            outline: none;
+        }
+        /* Menu de navegação */
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        #logo {
+            font-size: 30px;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        #logo span {
+            color: crimson;
+        }
+        
+        .list-item {
+            color: #fff;
+        }
+        
+        .list-item:hover {
+            color: crimson;
+            transition: 0.65s;
+        }
+        
+        .btn-menu {
+            border: solid 1px #fff;
+        }
+        
+        .btn-menu>i {
+            color: #fff;
+        }
+        
+        .btn {
+            background-color: crimson;
+            color: #fff;
+            outline: none;
+        }
+        
+        .btn:hover {
+            background-color: #fff;
+            color: crimson;
+            transition: 0.35s;
+            outline: none;
+        }
+        
+        #download {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        img {
+            height: 100%;
+        }
+        
+        #imageHome {
+            width: 100%;
+            height: 100%;
+        }
+        /* Home */
+        
+        .home,
+        .projects,
+        .contacts {
+            display: flex;
+            font-family: 'Ubuntu', sans-serif;
+            background-color: #000;
+        }
+        
+        .text-1 {
+            font-size: 27px;
+            color: #fff;
+        }
+        
+        .text-2 {
+            font-size: 50px;
+            font-weight: 600;
+            margin-left: -3px;
+            color: #fff;
+        }
+        
+        .text-3 {
+            font-size: 27px;
+            margin: 5px 0;
+            color: #fff;
+        }
+        
+        .text-3 span {
+            color: crimson;
+        }
+        /* Sobre */
+        
+        .about-text {
+            font-size: 18px;
+        }
+        /* Projetos */
+        
+        .projects {
+            height: 1085px;
+        }
+        
+        #projectTitle {
+            font-weight: 600px;
+            color: #fff;
+            font-size: 28px;
+            text-align: center;
+        }
+        /* cards */
+        
+        .card {
+            width: 50%;
+            height: 100%;
+            margin-right: 2%;
+            background-color: crimson;
+        }
+        
+        .card:hover {
+            transform: translateY(-15px);
+            transition: 0.75s;
+        }
+        
+        .card-title {
+            border-radius: 50%;
+            height: 50px;
+            width: 55px;
+            text-align: center;
+            padding-top: 1%;
+            margin-top: 2%;
+            margin-left: 42%;
+            font-size: 28px;
+            font-weight: 500;
+            background-color: #000;
+            color: crimson;
+        }
+        
+        .card-subtitle {
+            text-align: center;
+            color: #fff;
+            font-size: 26px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        
+        .card-text {
+            color: #fff;
+            font-size: 18px;
+        }
+        /* footer */
+        
+        .footer {
+            height: 205px;
+            background-color: #000;
+        }
+        
+        .footerTitle {
+            color: #fff;
+            margin-top: 2%;
+        }
+        
+        .footer-text {
+            color: #fff;
+        }
+        
+        #social-icons-content {
+            margin-top: 2%;
+            margin-left: 5%;
+        }
+        
+        .btn-footer {
+            font-size: 25px;
+            height: 45px;
+            width: 45px;
+            color: crimson;
+            border: solid 1px;
+            border-color: #fff;
+            border-radius: 50%
+        }
+        
+        .btn-footer:hover {
+            background-color: #fff;
+            transition: 0.35s;
+        }
+        
+        .icon {
+            color: crimson;
+        }
+        
+        .icon1 {
+            margin-left: 10.5px;
+        }
+        
+        .icon2 {
+            margin-left: 9px;
+        }
+        
+        .icon3 {
+            margin-left: 10.5px;
+        }
+        
+        .icon4 {
+            margin-left: 10.5px;
+        }
+        
+        @media(min-width: 320px) and (max-width:374px) {
+            body {
+                height: 100%;
+            }
+            /* projetos */
+            #projects {
+                height: 3070px;
+            }
+            /* footer */
+            #contacts {
+                height: 300px;
+            }
+            #social-icons-content {
+                margin-top: 2%;
+                margin-left: 15%;
+            }
+        }
+        
+        @media(min-width:375px) and (max-width:425px) {
+            body {
+                height: 100%;
+            }
+            /* projetos */
+            #projects {
+                height: 2880px;
+            }
+            /* footer */
+            #contacts {
+                height: 300px;
+            }
+            #social-icons-content {
+                margin-top: 2%;
+                margin-left: 19%;
+            }
+        }
+        
+        @media (max-width: 575.98px) {
+            /* Projetos */
+            .projects {
+                height: 2750px;
+            }
+            /* cards */
+            .card {
+                width: 100%;
+                height: 100%;
+                margin-right: 2%;
+                margin-top: 5%;
+                background-color: crimson;
+            }
+            .card:hover {
+                transform: translateY(0px);
+                transition: 0.75s;
+            }
+            .card-title {
+                margin-left: 44.5%;
+            }
+            /* Habilidades */
+            #columnTextSkills {
+                display: none;
+            }
+            #columnBarsSkills {
+                margin-left: 22%;
+                margin-top: 5%;
+            }
+            /* footer */
+            .footer {
+                height: 240px;
+            }
+            #social-icons-content {
+                margin-top: 2%;
+                margin-left: 19%;
+            }
+        }
+        
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            /* Projetos */
+            .projects {
+                height: 2750px;
+            }
+            #projectTitle {
+                text-align: center;
+                margin-right: 4%;
+            }
+            /* cards */
+            .card {
+                width: 100%;
+                height: 100%;
+                margin-right: 2%;
+                margin-top: 5%;
+                background-color: crimson;
+            }
+            .card:hover {
+                transform: translateY(0px);
+                transition: 0.75s;
+            }
+            .card-title {
+                margin-left: 44%;
+            }
+            .card-subtitle {
+                text-align: center;
+            }
+            .card-text {
+                text-align: center;
+            }
+            /* Habilidades */
+            #containerSkills {
+                display: flex;
+                flex-direction: row;
+            }
+            #columnTextSkills {
+                display: none;
+            }
+            #columnBarsSkills {
+                margin-left: 22%;
+                margin-top: 5%;
+            }
+            /* footer */
+            .footer {
+                height: 250px;
+            }
+            #social-icons-content {
+                margin-top: 2%;
+                margin-left: 19%;
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            #imgHome {
+                display: none;
+            }
+            /* Projetos */
+            .projects {
+                height: 2820px;
+            }
+            #projectTitle {
+                text-align: center;
+                margin-right: 4%;
+            }
+            /* cards */
+            .card {
+                width: 100%;
+                height: 100%;
+                margin-right: 2%;
+                margin-top: 5%;
+                background-color: crimson;
+            }
+            .card:hover {
+                transform: translateY(0px);
+                transition: 0.75s;
+            }
+            .card-title {
+                margin-left: 46%;
+            }
+            .card-subtitle {
+                text-align: center;
+            }
+            /* Habilidades */
+            #containerSkills {
+                display: flex;
+                flex-direction: row;
+            }
+            /* footer */
+            .footer {
+                height: 250px;
+            }
+            #social-icons-content {
+                margin-top: 2%;
+                margin-left: 23%;
+            }
+        }
+        
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            /* Projetos */
+            .projects {
+                height: 1200px;
+            }
+            /* footer */
+            .footer {
+                height: 250px;
+            }
+        }

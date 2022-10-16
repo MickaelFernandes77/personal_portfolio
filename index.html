@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mickael Fernandes - Desenvolvedor Front End</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Link Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Link do Fontawesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Inicio Menu de navegação -->
+        <nav class="sticky-top navbar navbar-expand-sm d-flex justify-content-around ">
+            <!-- Logo -->
+            <div>
+                <a href="#home" id="logo" class="nav-link">Port<span>fólio</span></a>
+            </div>
+
+            <!-- Botão hamburguer para o menu responsivo -->
+            <button class="navbar-toggler btn-menu" data-toggle="collapse" data-target="#nav-principal">
+                <i class="fa fa-bars" style="border: none;" aria-hidden="true"></i>
+            </button>
+
+            <!-- lista de itens -->
+            <div class="collapse navbar-collapse" id="nav-principal">
+                <ul class="navbar-nav ml-auto text-white">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link list-item">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link list-item">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link list-item">Projetos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link list-item">Habilidades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link list-item">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- fim lista de itens -->
+        </nav>
+        <!-- Fim Menu de navegação -->
+    </header>
+
+    <!-- Inicio Home -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-6 text-md-left text-center">
+                    <div class="text-1 mt-5">Olá, meu nome é </div>
+                    <div class="text-2 mt-2">Mickael Fernandes</div>
+                    <div class="text-3 mt-3">e sou um <span>Desenvolvedor Front-End</span></div>
+                    <div><button class="scrollButton" onclick="topo()"><i class="fa fa-arrow-up topo"></i>
+                    </button></div>
+
+                    <a href="https://web.whatsapp.com/send?phone=5511970484620" target="_blanck" class="btn mt-2 mb-3 w-50" style="text-decoration:none;">Contratar</a>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/mickael_edit2.jpg " class="d-md-block d-none" id="imageHome">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Fim Home -->
+
+    <!-- Inicio Sobre -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row d-flex justify-content-around">
+                <!-- Coluna titulo e imagem-->
+                <div class="col-md-4">
+                    <h3 class="mt-3 mb-2 text-md-left text-center">Sobre Mim</h3>
+                    <img src="assets/mickael2.jpeg " class="img-fluid d-md-block d-none mt-3">
+                </div>
+                <!-- Fim Coluna titulo e imagem-->
+
+                <!-- Coluna texto Sobre -->
+                <div class="col-md-6 text-md-left text-center mt-md-5 pt-md-5">
+                    <p class="about-text">Olá, me chamo Mickael Fernandes, e sou um Desenvolvedor Front-End, sou um amante da área de tecnologia em especial desenvolvimento de sistemas.</p>
+
+                    <p class="about-text">Sou um profissional dedicado e aplicado, e estou pronto para te ajudar com o que for preciso! Vamos trabalhar juntos?</p>
+
+                    <a href="Mickael_Fernandes.pdf" target="_blanck" id="download"><button class=" btn mt-2 mb-3 w-50 btn-outline-danger ">Baixar Currículo</button></a>
+
+                </div>
+                <!-- Fim Coluna texto Sobre -->
+            </div>
+        </div>
+    </section>
+    <!-- Fim Sobre -->
+
+    <!-- Inicio Projetos-->
+    <section class="projects mt-4" id="projects">
+        <div class="container">
+            <div class="row d-flex justify-content-around">
+                <!-- Coluna titulo-->
+                <div class="col-md-12 text-center">
+                    <h3 class="mt-3 mb-2" id="projectTitle">Meus Projetos</h3>
+                </div>
+                <!-- Fim Coluna titulo-->
+            </div>
+
+            <div class="row">
+                <!-- Coluna cards Projetos -->
+                <div class="col d-flex flex-column flex-lg-row justify-content-around mt-md-4">
+                    <div class="card">
+                        <!-- card numero projeto -->
+                        <div class="card-title">1</div>
+                        <!-- card projeto titulo -->
+                        <div class="card-subtitle">Finans</div>
+                        <!-- card projeto corpo -->
+                        <div class="card-body">
+                            <p class="card-text" id="card-text1 ">Um Website para uma plataforma que realiza o gerenciamento das finanças dos usuários.
+                            </p>
+
+                            <!-- card botão -->
+                            <div class="d-flex justify-content-center ">
+                                <a href="https://wfinans.netlify.app/" target="_blanck" class="btn btn-outline-light w-50">
+                                    Acessar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!-- card numero projeto -->
+                        <div class="card-title">2</div>
+                        <!-- card projeto titulo -->
+                        <div class="card-subtitle">Spotify Clone</div>
+                        <!-- card projeto corpo -->
+                        <div class="card-body">
+                            <p class="card-text" id="card-text1 ">Clone da página inicial do Spotify, feito como um projeto pessoal para desenvolvimento de habilidades.
+                            </p>
+
+                            <!-- card botão -->
+                            <div class="d-flex justify-content-center ">
+                                <a href="https://spotcloneweb.netlify.app/" target="_blanck" class="btn btn-outline-light w-50">
+                                    Acessar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card ">
+                        <!-- card numero projeto -->
+                        <div class="card-title">3</div>
+                        <!-- card projeto titulo -->
+                        <div class="card-subtitle">Calculadora</div>
+                        <!-- card projeto corpo -->
+                        <div class="card-body">
+                            <p class="card-text" id="card-text1">Uma calculadora web que realiza as operações de adição, subtração, divisão e multiplicação.
+                            </p>
+
+                            <!-- card botão -->
+                            <div class="d-flex justify-content-center ">
+                                <a href="https://webcalculadora.netlify.app/" target="_blanck" class="btn btn-outline-light w-50 ">
+                                    Acessar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Coluna cards -->
+            </div>
+
+            <div class="row">
+                <!-- Coluna cards Projetos -->
+                <div class="col d-flex flex-column flex-lg-row justify-content-around mt-md-4">
+                    <div class="card">
+                        <!-- card numero projeto -->
+                        <div class="card-title ">4</div>
+                        <!-- card projeto titulo -->
+                        <div class="card-subtitle ">Shop Landing Page</div>
+                        <!-- card projeto corpo -->
+                        <div class="card-body ">
+                            <p class="card-text " id="card-text1 ">Um site de um web shop que exibe três modelos de headsets, e como adquirir os produtos.
+                            </p>
+
+                            <!-- card botão -->
+                            <div class="d-flex justify-content-center ">
+                                <a href="https://wshopping.netlify.app/" target="_blanck" class="btn btn-outline-light w-50 ">
+                                    Acessar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!-- card numero projeto -->
+                        <div class="card-title ">5</div>
+                        <!-- card projeto titulo -->
+                        <div class="card-subtitle ">Cronômetro</div>
+                        <!-- card projeto corpo -->
+                        <div class="card-body ">
+                            <p class="card-text " id="card-text1 ">Um cronômetro Web que realiza a contagem de milisegundos, segundos e minutos.
+                            </p>
+
+                            <!-- card botão -->
+                            <div class="d-flex justify-content-center ">
+                                <a href="https://cronometrosmart.netlify.app/" target="_blanck" class="btn btn-outline-light w-50">
+                                    Acessar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!-- card numero projeto -->
+                        <div class="card-title ">5</div>
+                        <!-- card projeto titulo -->
+                        <div class="card-subtitle ">Self Care</div>
+                        <!-- card projeto corpo -->
+                        <div class="card-body ">
+                            <p class="card-text " id="card-text1">Um Website institucional para uma loja especializada em vendas de diversos produtos naturais.
+                            </p>
+
+                            <!-- card botão -->
+                            <div class="d-flex justify-content-center ">
+                                <a href="https://wselfcare.netlify.app/" target="_blanck" class="btn btn-outline-light w-50">
+                                    Acessar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Coluna Cards Projetos -->
+            </div>
+
+            <div class="row">
+                <!-- Coluna cards Projetos -->
+                <div class="col d-flex flex-column flex-lg-row justify-content-around mt-md-4">
+                    <div class="card">
+                        <!-- card numero projeto -->
+                        <div class="card-title ">6</div>
+                        <!-- card projeto titulo -->
+                        <div class="card-subtitle ">YouBank</div>
+                        <!-- card projeto corpo -->
+                        <div class="card-body ">
+                            <p class="card-text " id="card-text1">Um Website institucional para um banco digital, com informações gerais da empresa e como atendem aos clientes.
+                            </p>
+
+                            <!-- card botão -->
+                            <div class="d-flex justify-content-center ">
+                                <a href="https://youbankweb.netlify.app/" target="_blanck" class="btn btn-outline-light w-50">
+                                    Acessar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!-- card numero projeto -->
+                        <div class="card-title">7</div>
+                        <!-- card projeto titulo -->
+                        <div class="card-subtitle">Netflix Clone</div>
+                        <!-- card projeto corpo -->
+                        <div class="card-body ">
+                            <p class="card-text " id="card-text1">Clone da interface inicial da netflix, projeto realizado para desenvolvimento de habilidades de programação front-end.
+                            </p>
+
+                            <!-- card botão -->
+                            <div class="d-flex justify-content-center ">
+                                <a href="https://clonenetflixweb.netlify.app/" target="_blanck" class="btn btn-outline-light w-50">
+                                    Acessar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!-- card numero projeto -->
+                        <div class="card-title ">8</div>
+                        <!-- card projeto titulo -->
+                        <div class="card-subtitle ">System Store</div>
+                        <!-- card projeto corpo -->
+                        <div class="card-body ">
+                            <p class="card-text " id="card-text1">Website do grupo de desenvolvimento de sistemas, para o trabalho de conclusão de curso, da ETEC Jardim Ângela.
+                            </p>
+
+                            <!-- card botão -->
+                            <div class="d-flex justify-content-center ">
+                                <a href="https://systemstore.netlify.app/" target="_blanck" class="btn btn-outline-light w-50">
+                                Acessar
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Projetos -->
+
+    <!-- Inicio Habilidades-->
+    <section class="skills" id="skills">
+        <div class="container ">
+            <div class="row d-flex justify-content-around">
+                <!-- Coluna titulo-->
+                <div class="col-md-12 text-center">
+                    <h3 class="mt-3 mb-2" id="skillsTitle">Minhas Habilidades</h3>
+                </div>
+                <!-- Fim Coluna titulo-->
+            </div>
+
+            <div class="row" id="containerSkills">
+                <!-- Coluna textos Habilidades -->
+                <div class="col-5 mt-5" id="columnTextSkills">
+                    <h4>Minhas Habilidades & Experiências</h4>
+
+                    <p>Tenho conhecimento nas linguagens HTML, CSS, JAVASCRIPT, e no Framework BOOTSTRAP que servem para desenvolvimento front-end. E para desenvolvimento back-end conheço PHP e MYSQL.</p>
+                </div>
+
+                <!-- Coluna cards Projetos -->
+                <div class="col-7 mt-md-5" id="columnBarsSkills">
+                    <div>
+                        <p>HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color: crimson;">90%</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="pt-3">CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color: crimson;">80%</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="pt-3">BOOTSTRAP</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 70%; background-color: crimson;">70%</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="pt-3">JAVASCRIPT</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 65%; background-color: crimson;">65%</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="pt-3">PHP</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 50%; background-color: crimson;">50%</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="pt-3">MYSQL</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 50%; background-color: crimson;">50%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim Coluna textos Habilidades -->
+        </div>
+        </div>
+    </section>
+    <!-- Fim Habilidades -->
+
+    <footer class="footer mt-4" style="background-color: #000;" id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="text-align: center;">
+                    <h3 class="footerTitle">Entre em Contato</h3>
+                    <p style="font-size: 23px; color: #fff;">Se você gostou do meu trabalho. Entre em contato, e receba um projeto com qualidade e eficiência!</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-10">
+                    <!-- Icones dos apps -->
+                    <div id="social-icons-content" style="display: flex; justify-content: space-around;">
+                        <p class="btn-footer"><a href="https://web.whatsapp.com/send?phone=5511970484620" target="_blanck"><i class="fa fa-whatsapp icon icon1" id="whats"></i></a></p>
+                        <p class="btn-footer"><a href="mailto:mickaelbpsouza@gmail.com" target="_blanck"><i class="fa fa-envelope icon icon2"></i></a></p>
+                        <p class="btn-footer"><a href="https://www.linkedin.com/in/mickael-fernandes-bispo-de-souza-8ab2b01b8/ " target="_blanck"><i class="fa fa-linkedin icon icon3"></i></a></p>
+                        <p class="btn-footer"><a href="https://github.com/MickaelFernandes7" target="_blanck "><i class=" fa fa-github icon icon4 "></i></a></p>
+                    </div>
+                    <!-- Fim Icones dos apps -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    <!-- Import JavaScript Bootsrap (Opcional) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
+</body>
+
+</html>
