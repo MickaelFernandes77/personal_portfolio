@@ -211,8 +211,49 @@
             font-size: 18px;
         }
 
-        /* footer */
+        /* habilidades */
 
+        #skills {
+            height: 215px;
+        }
+
+        #skillsTitle {
+            font-weight: 700;
+        }
+
+        #containerSkills {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 3%;
+        }
+
+        .skillsIcons {
+            font-size: 80px;
+            cursor: pointer;
+        }
+
+        .skillsIcons:hover {
+            font-size: 95px;
+            transition: 0.5s;
+        }
+
+        #js {
+            color: #f0db4f;
+        }
+
+        #html {
+            color: #e34c26;
+        }
+
+        #css {
+            color: #2965f1;
+        }
+
+        #bootstrap {
+            color: #563d7c;
+        }
+
+        /* footer */
         .footer {
             height: 205px;
             background-color: #000;
@@ -265,6 +306,16 @@
                 height: 2850px;
             }
 
+            /* habilidades */
+            #skills {
+                height: 200px;
+            }
+
+            .skillsIcons {
+                font-size: 70px;
+                cursor: pointer;
+            }
+
             /* footer */
             #contacts {
                 height: 300px;
@@ -291,9 +342,23 @@
                 height: 2760px;
             }
 
+            /* habilidades */
+            #skills {
+                height: 200px;
+            }
+
+            #containerSkills {
+                margin-top: 10%;
+            }
+
+            .skillsIcons {
+                font-size: 70px;
+                cursor: pointer;
+            }
+
             /* footer */
             #contacts {
-                height: 300px;
+                height: 250px;
             }
 
             #social-icons-content {
@@ -332,14 +397,18 @@
                 margin-left: 44.5%;
             }
 
-            /* Habilidades */
-            #columnTextSkills {
-                display: none;
+            /* habilidades */
+            #skills {
+                height: 200px;
             }
 
-            #columnBarsSkills {
-                margin-left: 22%;
+            #containerSkills {
                 margin-top: 5%;
+            }
+
+            .skillsIcons {
+                font-size: 70px;
+                cursor: pointer;
             }
 
             /* footer */
@@ -398,18 +467,17 @@
             }
 
             /* Habilidades */
+            #skills {
+                height: 200px;
+            }
+
             #containerSkills {
-                display: flex;
-                flex-direction: row;
+                margin-top: 6%;
             }
 
-            #columnTextSkills {
-                display: none;
-            }
-
-            #columnBarsSkills {
-                margin-left: 22%;
-                margin-top: 5%;
+            .skillsIcons {
+                font-size: 70px;
+                cursor: pointer;
             }
 
             /* footer */
@@ -465,14 +533,22 @@
             }
 
             /* Habilidades */
+            #skills {
+                height: 200px;
+            }
+
             #containerSkills {
-                display: flex;
-                flex-direction: row;
+                margin-top: 6%;
+            }
+
+            .skillsIcons {
+                font-size: 70px;
+                cursor: pointer;
             }
 
             /* footer */
             .footer {
-                height: 250px;
+                height: 230px;
             }
 
             #social-icons-content {
