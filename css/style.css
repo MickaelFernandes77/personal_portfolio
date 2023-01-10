@@ -152,13 +152,15 @@
         }
 
         /* Sobre */
-
-        .about-text {
+        
+        .aboutTitle{
+            font-weight: 700;
+        }
+        .aboutText {
             font-size: 18px;
         }
-
+        
         /* Projetos */
-
         .projects {
             height: 1085px;
         }
@@ -264,7 +266,8 @@
             margin-top: 2%;
         }
 
-        .footer-text {
+        .footerText {
+            font-size: 23px;
             color: #fff;
         }
 
@@ -328,7 +331,7 @@
                 margin-right: 14%;
             }
 
-            .btn-footer{
+            .btn-footer {
                 font-size: 28px;
                 border: none;
             }
@@ -373,7 +376,7 @@
                 margin-right: 18%;
             }
 
-            .btn-footer{
+            .btn-footer {
                 border: none;
             }
 
@@ -432,7 +435,7 @@
                 margin-right: 0;
             }
 
-            .btn-footer{
+            .btn-footer {
                 border: none;
             }
 
@@ -502,8 +505,8 @@
                 margin-top: 2%;
                 margin-left: 0;
             }
-            
-            .btn-footer{
+
+            .btn-footer {
                 font-size: 30px;
                 border: none;
             }
