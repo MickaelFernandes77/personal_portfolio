@@ -114,7 +114,7 @@
             height: 100%;
         }
 
-        #imageHome {
+        .mickael1 {
             width: 100%;
             height: 100%;
         }
@@ -152,14 +152,26 @@
         }
 
         /* Sobre */
-        
-        .aboutTitle{
+
+        .aboutTitle {
             font-weight: 700;
+            margin-top: 3%;
+            margin-bottom: 2%;
+            text-align: center;
         }
+
+        .mickael2 {
+            margin-top: 3%;
+        }
+
+        .aboutTextContainer {
+            margin-top: 10%;
+        }
+
         .aboutText {
             font-size: 18px;
         }
-        
+
         /* Projetos */
         .projects {
             height: 1085px;
@@ -305,6 +317,16 @@
                 height: 100%;
             }
 
+            /* minhas imagens */
+            .mickael1, .mickael2 {
+                display: none;
+            }
+
+            /* sobre */
+            .aboutTextContainer {
+                margin-top: 3%;
+            }
+
             /* projetos */
             #projects {
                 height: 2850px;
@@ -344,6 +366,16 @@
         @media(min-width:375px) and (max-width:425px) {
             body {
                 height: 100%;
+            }
+
+            /* minhas imagens */
+            .mickael1, .mickael2 {
+                display: none;
+            }
+
+            /* sobre */
+            .aboutTextContainer {
+                margin-top: 3%;
             }
 
             /* projetos */
@@ -386,6 +418,16 @@
         }
 
         @media (max-width: 575.98px) {
+
+            /* minhas imagens */
+            .mickael1, .mickael2 {
+                display: none;
+            }
+
+            /* sobre */
+            .aboutTextContainer {
+                margin-top: 3%;
+            }
 
             /* Projetos */
             .projects {
@@ -445,6 +487,16 @@
         }
 
         @media (min-width: 576px) and (max-width: 767.98px) {
+
+            /* minhas imagens */
+            .mickael1, .mickael2 {
+                display: none;
+            }
+
+            /* sobre */
+            .aboutTextContainer {
+                margin-top: 3%;
+            }
 
             /* Projetos */
             .projects {
@@ -517,8 +569,10 @@
         }
 
         @media (min-width: 768px) and (max-width: 991.98px) {
-            #imgHome {
-                display: none;
+
+            /* sobre */
+            .aboutTextContainer {
+                margin-top: 3%;
             }
 
             /* Projetos */
