@@ -297,6 +297,7 @@
         }
 
         @media(min-width: 320px) and (max-width:375px) {
+
             body {
                 height: 100%;
             }
@@ -325,6 +326,11 @@
                 margin-top: 2%;
                 margin-left: 0;
                 margin-right: 14%;
+            }
+
+            .btn-footer{
+                font-size: 28px;
+                border: none;
             }
 
             .scrollButton {
@@ -365,6 +371,10 @@
                 margin-top: 2%;
                 margin-left: 0;
                 margin-right: 18%;
+            }
+
+            .btn-footer{
+                border: none;
             }
 
             .scrollButton {
@@ -422,6 +432,9 @@
                 margin-right: 0;
             }
 
+            .btn-footer{
+                border: none;
+            }
 
             .scrollButton {
                 display: none !important;
@@ -488,6 +501,11 @@
             #social-icons-content {
                 margin-top: 2%;
                 margin-left: 0;
+            }
+            
+            .btn-footer{
+                font-size: 30px;
+                border: none;
             }
 
             .scrollButton {
