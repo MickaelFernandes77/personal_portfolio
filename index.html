@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Olá, me chamo Mickael Fernandes, sou um Desenvolvedor Front-End, seja bem vindo ao meu portfólio!">
+    <meta name="description"
+        content="Olá, me chamo Mickael Fernandes, sou um Desenvolvedor Front-End, seja bem vindo ao meu portfólio!">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -57,318 +58,336 @@
         <!-- Fim Menu de navegação -->
     </header>
 
-    <!-- Inicio Home -->
-    <section class="home" id="home">
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="col-md-6 text-md-left text-center">
-                    <div class="text-1 mt-5">Olá, meu nome é </div>
-                    <div class="text-2 mt-2">Mickael Fernandes</div>
-                    <div class="text-3 mt-3"><span>Desenvolvedor Front-End</span></div>
-                    <div>
-                        <button class="scrollButton" onclick="topo()"><i class="fa fa-arrow-up topo"></i></button>
-                    </div>
-
-                    <a href="https://wa.me/5511970484620" target="_blanck" class="btn mt-2 mb-3 w-50"
-                        style="text-decoration:none;" title="Encaminhará o usuário para meu whatsapp">Contratar</a>
-                </div>
-                <div class="col-md-4">
-                    <img src="assets/mickael.webp" class="mickael1"
-                        alt="imagem de Mickael Fernandes">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Fim Home -->
-
-    <!-- Inicio Sobre -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <!-- Coluna titulo e imagem-->
-                <div class="col-md-4">
-                    <h3 class="text-md-left aboutTitle">Sobre Mim</h3>
-                    <img src="assets/mickael2.webp" class="img-fluid mickael2"
-                        alt="imagem de Mickael Fernandes">
-                </div>
-                <!-- Fim Coluna titulo e imagem-->
-
-                <!-- Coluna texto Sobre -->
-                <div class="col-md-6 text-md-left text-center aboutTextContainer">
-                    <p class="aboutText">Olá, me chamo Mickael Fernandes. Sou Desenvolvedor Front-End, formado como
-                        Técnico em Desenvolvimento de Sistemas,
-                        pela ETEC Jardim Ângela. Possuo diversos projetos realizados e diversos certificados na área de
-                        programação.</p>
-
-                    <p class="aboutText">Sou um profissional focado e disciplinado. E tenho como objetivo entregar
-                        sempre o melhor resultado. Vamos
-                        trabalhar juntos?</p>
-
-                    <a href="Mickael_Fernandes.pdf" target="_blanck" id="download"
-                        title="baixará meu currículo em pdf"><button
-                            class=" btn mt-2 mb-3 w-50 btn-outline-danger">Baixar Currículo</button></a>
-                </div>
-                <!-- Fim Coluna texto Sobre -->
-            </div>
-        </div>
-    </section>
-    <!-- Fim Sobre -->
-
-    <!-- Inicio Projetos-->
-    <section class="projects mt-4" id="projects">
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <!-- Coluna titulo-->
-                <div class="col-md-12 text-center">
-                    <h3 class="mt-3 mb-2" id="projectTitle">Meus Projetos</h3>
-                </div>
-                <!-- Fim Coluna titulo-->
-            </div>
-
-            <div class="row">
-                <!-- Coluna cards Projetos -->
-                <div class="col d-flex flex-column flex-lg-row justify-content-around mt-md-4">
-                    <div class="card">
-                        <!-- card numero projeto -->
-                        <div class="card-title ">1</div>
-                        <!-- card projeto titulo -->
-                        <div class="card-subtitle">Pesquisa Endereço</div>
-                        <!-- card projeto corpo -->
-                        <div class="card-body ">
-                            <p class="card-text " id="card-text1 ">Um projeto que permite que você busque qualquer CEP
-                                catalogado no Brasil.
-                            </p>
-
-                            <!-- card botão -->
-                            <div class="d-flex justify-content-center">
-                                <a href="https://wpesquisaendereco.netlify.app/"
-                                    title="Encaminhará o usuário ao meu projeto Pesquisa Endereço" target="_blanck"
-                                    class="btn btn-outline-light w-50">
-                                    Acessar
-                                </a>
-                            </div>
+    <main>
+        <section class="home" id="home">
+            <div class="container">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-md-6 text-md-left text-center">
+                        <div class="text-1 mt-5">Olá, meu nome é </div>
+                        <div class="text-2 mt-2">Mickael Fernandes</div>
+                        <div class="text-3 mt-3"><span>Desenvolvedor Front-End</span></div>
+                        <div>
+                            <button class="scrollButton" onclick="topo()"><i class="fa fa-arrow-up topo"></i></button>
                         </div>
+
+                        <a href="https://wa.me/5511970484620" id="hireBtn" target="_blanck" class="btn"
+                            title="Encaminhará o usuário para meu whatsapp">Contratar</a>
                     </div>
-
-                    <div class="card">
-                        <!-- card numero projeto -->
-                        <div class="card-title">2</div>
-                        <!-- card projeto titulo -->
-                        <div class="card-subtitle">Spotify Clone</div>
-                        <!-- card projeto corpo -->
-                        <div class="card-body">
-                            <p class="card-text" id="card-text1">Clone da página inicial do Spotify, feito como um
-                                projeto pessoal para desenvolvimento de habilidades.
-                            </p>
-
-                            <!-- card botão -->
-                            <div class="d-flex justify-content-center ">
-                                <a href="https://spotcloneweb.netlify.app/" target="_blanck"
-                                    title="Encaminhará o usuário ao meu projeto clone da página inicial do Spotify"
-                                    class="btn btn-outline-light w-50">
-                                    Acessar
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card ">
-                        <!-- card numero projeto -->
-                        <div class="card-title">3</div>
-                        <!-- card projeto titulo -->
-                        <div class="card-subtitle">Calculadora</div>
-                        <!-- card projeto corpo -->
-                        <div class="card-body">
-                            <p class="card-text" id="card-text1">Uma calculadora web que realiza as operações de adição,
-                                subtração, divisão e multiplicação.
-                            </p>
-
-                            <!-- card botão -->
-                            <div class="d-flex justify-content-center ">
-                                <a href="https://webcalculadora.netlify.app/" target="_blanck"
-                                    title="Encaminhará o usuário a meu projeto de Calculadora Virtual"
-                                    class="btn btn-outline-light w-50 ">
-                                    Acessar
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Fim Coluna cards -->
-            </div>
-
-            <div class="row">
-                <!-- Coluna cards Projetos -->
-                <div class="col d-flex flex-column flex-lg-row justify-content-around mt-md-4">
-                    <div class="card">
-                        <!-- card numero projeto -->
-                        <div class="card-title ">4</div>
-                        <!-- card projeto titulo -->
-                        <div class="card-subtitle ">System Store</div>
-                        <!-- card projeto corpo -->
-                        <div class="card-body ">
-                            <p class="card-text " id="card-text1">Site do grupo System Store, para
-                                o trabalho de conclusão de curso, da ETEC Jardim Ângela.
-                            </p>
-
-                            <!-- card botão -->
-                            <div class="d-flex justify-content-center ">
-                                <a href="https://systemstore.netlify.app/" target="_blanck"
-                                    title="Encaminhará o usuário ao meu projeto System Store"
-                                    class="btn btn-outline-light w-50">
-                                    Acessar
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="card">
-                        <!-- card numero projeto -->
-                        <div class="card-title ">5</div>
-                        <!-- card projeto titulo -->
-                        <div class="card-subtitle ">Orçamento Pessoal</div>
-                        <!-- card projeto corpo -->
-                        <div class="card-body ">
-                            <p class="card-text " id="card-text1">Um projeto que permite que você adicione e visualize
-                                seus gastos mensais e gerais.
-                            </p>
-
-                            <!-- card botão -->
-                            <div class="d-flex justify-content-center ">
-                                <a href="https://worcamentopessoal.netlify.app/" target="_blanck"
-                                    title="Encaminhará o usuário ao meu projeto de Orçamento Pessoal"
-                                    class="btn btn-outline-light w-50">
-                                    Acessar
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <!-- card numero projeto -->
-                        <div class="card-title ">6</div>
-                        <!-- card projeto titulo -->
-                        <div class="card-subtitle ">Blogr</div>
-                        <!-- card projeto corpo -->
-                        <div class="card-body ">
-                            <p class="card-text " id="card-text1 ">Um site de um servidor especializado em publicação de
-                                domínios na internet.
-                            </p>
-
-                            <!-- card botão -->
-                            <div class="d-flex justify-content-center ">
-                                <a href="https://wblogr.netlify.app/" target="_blanck"
-                                    title="Encaminhará o usuário ao meu projeto Blogr"
-                                    class="btn btn-outline-light w-50 ">
-                                    Acessar
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Fim Coluna Cards Projetos -->
-            </div>
-
-            <div class="row">
-                <!-- Coluna cards Projetos -->
-                <div class="col d-flex flex-column flex-lg-row justify-content-around mt-md-4">
-                    <div class="card">
-                        <!-- card numero projeto -->
-                        <div class="card-title">7</div>
-                        <!-- card projeto titulo -->
-                        <div class="card-subtitle">Finans</div>
-                        <!-- card projeto corpo -->
-                        <div class="card-body">
-                            <p class="card-text" id="card-text1 ">Um Website para uma plataforma que realiza o
-                                gerenciamento das finanças dos usuários.
-                            </p>
-
-                            <!-- card botão -->
-                            <div class="d-flex justify-content-center ">
-                                <a href="https://wfinans.netlify.app/" target="_blanck"
-                                    title="Encaminhará o usuário ao meu projeto Finans"
-                                    class="btn btn-outline-light w-50">
-                                    Acessar
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <!-- card numero projeto -->
-                        <div class="card-title ">8</div>
-                        <!-- card projeto titulo -->
-                        <div class="card-subtitle ">Sunnyside</div>
-                        <!-- card projeto corpo -->
-                        <div class="card-body ">
-                            <p class="card-text " id="card-text1 ">Um website institucional de uma agência especializada
-                                em marketing digital.
-                            </p>
-
-                            <!-- card botão -->
-                            <div class="d-flex justify-content-center ">
-                                <a href="https://wsunnyside.netlify.app/" target="_blanck"
-                                    title="Encaminhará o usuário ao meu projeto Sunnyside"
-                                    class="btn btn-outline-light w-50">
-                                    Acessar
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="card">
-                        <!-- card numero projeto -->
-                        <div class="card-title ">9</div>
-                        <!-- card projeto titulo -->
-                        <div class="card-subtitle ">DashBoard Interativo</div>
-                        <!-- card projeto corpo -->
-                        <div class="card-body ">
-                            <p class="card-text " id="card-text1 ">Um dashboard que trás os números de seguidores e
-                                curtidas das redes sociais de um usuário.
-                            </p>
-
-                            <!-- card botão -->
-                            <div class="d-flex justify-content-center ">
-                                <a href="https://dashboardld.netlify.app/" target="_blanck"
-                                    title="Encaminhará o usuário ao meu projeto Dashboard Interativo"
-                                    class="btn btn-outline-light w-50">
-                                    Acessar
-                                </a>
-                            </div>
-                        </div>
+                    <div class="col-md-4">
+                        <img src="assets/mickael.webp" class="mickael1" alt="imagem de Mickael Fernandes">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Fim Projetos -->
+        </section>
 
-    <!-- Inicio Habilidades-->
-    <section class="skills" id="skills">
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <!-- Coluna titulo-->
-                <div class="col-md-12 text-center">
-                    <h3 class="mt-3 mb-2" id="skillsTitle">Minhas Habilidades</h3>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row d-flex justify-content-around">
+                    <!-- Coluna titulo e imagem-->
+                    <div class="col-md-4">
+                        <h3 class="text-md-left aboutTitle">Sobre Mim</h3>
+                        <img src="assets/mickael2.webp" class="img-fluid mickael2" alt="imagem de Mickael Fernandes">
+                    </div>
+                    <!-- Fim Coluna titulo e imagem-->
+
+                    <!-- Coluna texto Sobre -->
+                    <div class="col-md-6 text-md-left text-center aboutTextContainer">
+                        <p class="aboutText">Olá, me chamo Mickael Fernandes. Sou Desenvolvedor Front-End, formado como
+                            Técnico em Desenvolvimento de Sistemas,
+                            pela ETEC Jardim Ângela. Possuo diversos projetos realizados e diversos certificados na área
+                            de
+                            programação.</p>
+
+                        <p class="aboutText">Sou um profissional focado e disciplinado. E tenho como objetivo entregar
+                            sempre o melhor resultado. Vamos
+                            trabalhar juntos?</p>
+
+                        <a href="Mickael_Fernandes.pdf" target="_blanck" id="download" class="btn"
+                            title="baixará meu currículo em pdf">Baixar Currículo</a>
+                    </div>
+                    <!-- Fim Coluna texto Sobre -->
                 </div>
-                <!-- Fim Coluna titulo-->
             </div>
+        </section>
 
-            <div class="row" id="containerSkills">
-                <i class=" skillsIcons fa-brands fa-js" id="js"></i>
-                <i class="fa-brands fa-html5 skillsIcons" id="html"></i>
-                <i class="fa-brands fa-css3-alt skillsIcons" id="css"></i>
-                <i class="fa-brands fa-bootstrap skillsIcons" id="bootstrap"></i>
+        <section class="projects mt-4" id="projects">
+            <div class="container">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-md-12 text-center">
+                        <h3 class="mt-3 mb-2" id="projectTitle">Meus Projetos</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Coluna cards Projetos -->
+                    <div class="col d-flex flex-column flex-lg-row justify-content-around mt-md-4">
+                        <div class="card">
+                            <div class="card-title ">1</div>
+                            <div class="card-subtitle">Pesquisa Endereço</div>
+                            <div class="card-body ">
+                                <p class="card-text " id="card-text1 ">Um projeto que permite que você busque qualquer
+                                    CEP
+                                    catalogado no Brasil.
+                                </p>
+
+                                <div class="d-flex justify-content-center">
+                                    <a href="https://wpesquisaendereco.netlify.app/"
+                                        title="Encaminhará o usuário ao meu projeto Pesquisa Endereço" target="_blanck"
+                                        class="btn btn-outline-light w-50">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title">2</div>
+                            <div class="card-subtitle">Loopstudios</div>
+                            <div class="card-body">
+                                <p class="card-text">Um Website para uma plataforma que realiza o
+                                    gerenciamento das finanças dos usuários.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://loopstudiosw.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário ao meu projeto Finans"
+                                        class="btn btn-outline-light w-50">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-title ">3</div>
+                            <div class="card-subtitle ">Blogr</div>
+                            <div class="card-body ">
+                                <p class="card-text " id="card-text1 ">Um site de um servidor especializado em
+                                    publicação de
+                                    domínios na internet.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://wblogr.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário ao meu projeto Blogr"
+                                        class="btn btn-outline-light w-50 ">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim Coluna cards -->
+                </div>
+
+                <div class="row">
+                    <!-- Coluna cards Projetos -->
+                    <div class="col d-flex flex-column flex-lg-row justify-content-around mt-md-4">
+                        <div class="card">
+                            <div class="card-title ">4</div>
+                            <div class="card-subtitle ">System Store</div>
+                            <div class="card-body ">
+                                <p class="card-text">Site do grupo System Store, para
+                                    o trabalho de conclusão de curso, da ETEC Jardim Ângela.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://systemstore.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário ao meu projeto System Store"
+                                        class="btn btn-outline-light w-50">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-title">5</div>
+                            <div class="card-subtitle">Orçamento Pessoal</div>
+
+                            <div class="card-body">
+                                <p class="card-text">Um projeto que permite que você adicione e visualize
+                                    seus gastos mensais e gerais.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://worcamentopessoal.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário ao meu projeto de Orçamento Pessoal"
+                                        class="btn btn-outline-light w-50">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title">6</div>
+                            <div class="card-subtitle">Sunnyside</div>
+                            <div class="card-body">
+                                <p class="card-text">Um website institucional de uma agência especializada
+                                    em marketing digital.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://wsunnyside.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário ao meu projeto Sunnyside"
+                                        class="btn btn-outline-light w-50">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim Coluna Cards Projetos -->
+                </div>
+
+                <div class="row">
+                    <!-- Coluna cards Projetos -->
+                    <div class="col d-flex flex-column flex-lg-row justify-content-around mt-md-4">
+                        <div class="card">
+                            <div class="card-title">7</div>
+                            <div class="card-subtitle">Finans</div>
+                            <div class="card-body">
+                                <p class="card-text">Um Website para uma plataforma que realiza o
+                                    gerenciamento das finanças dos usuários.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://wfinans.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário ao meu projeto Finans"
+                                        class="btn btn-outline-light w-50">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title">8</div>
+                            <div class="card-subtitle">Calculadora</div>
+                            <div class="card-body">
+                                <p class="card-text">Uma calculadora web que realiza as operações de adição,
+                                    subtração, divisão e multiplicação.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://webcalculadora.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário a meu projeto de Calculadora Virtual"
+                                        class="btn btn-outline-light w-50 ">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title">9</div>
+                            <div class="card-subtitle">Insure</div>
+                            <div class="card-body">
+                                <p class="card-text">Um website institucional de uma agência especializada
+                                    em seguros de família.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://insurew.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário ao meu projeto Sunnyside"
+                                        class="btn btn-outline-light w-50">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col d-flex flex-column flex-lg-row justify-content-around mt-md-4">
+                        <div class="card">
+                            <div class="card-title">10</div>
+                            <div class="card-subtitle">Jokenpo</div>
+                            <div class="card-body">
+                                <p class="card-text">Jogo de jokenpo interativo, para se divertir enquanto joga feito
+                                    para
+                                    computadores e celulares.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://joken.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário ao meu projeto Dashboard Interativo"
+                                        class="btn btn-outline-light w-50">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title">11</div>
+                            <div class="card-subtitle">Spotify Clone</div>
+                            <div class="card-body">
+                                <p class="card-text">Clone da página inicial do Spotify, feito como um
+                                    projeto pessoal para desenvolvimento de habilidades.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://spotcloneweb.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário ao meu projeto clone da página inicial do Spotify"
+                                        class="btn btn-outline-light w-50">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title ">12</div>
+                            <div class="card-subtitle">DashBoard Interativo</div>
+                            <div class="card-body">
+                                <p class="card-text">Um dashboard que trás os números de seguidores e
+                                    curtidas das redes sociais de um usuário.
+                                </p>
+
+                                <div class="d-flex justify-content-center ">
+                                    <a href="https://dashboardld.netlify.app/" target="_blanck"
+                                        title="Encaminhará o usuário ao meu projeto Dashboard Interativo"
+                                        class="btn btn-outline-light w-50">
+                                        Acessar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- Fim Coluna textos Habilidades -->
-        </div>
-    </section>
-    <!-- Fim Habilidades -->
+        </section>
 
-    <footer class="footer mt-4" id="contacts">
+        <section class="skills">
+            <div class="container">
+                <div class="row d-flex justify-content-around">
+                    <!-- Coluna titulo-->
+                    <div class="col-md-12 text-center">
+                        <h3 class="mt-3 mb-2" id="skillsTitle">Minhas Habilidades</h3>
+                    </div>
+                    <!-- Fim Coluna titulo-->
+                </div>
+
+                <div class="row" id="containerSkills">
+                    <i class=" skillsIcons fa-brands fa-js" id="js"></i>
+                    <i class="fa-brands fa-html5 skillsIcons" id="html"></i>
+                    <i class="fa-brands fa-css3-alt skillsIcons" id="css"></i>
+                    <i class="fa-brands fa-bootstrap skillsIcons" id="bootstrap"></i>
+                    <i class="fa-brands fa-sass skillsIcons" id="sass"></i>
+                </div>
+                <!-- Fim Coluna textos Habilidades -->
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -382,19 +401,17 @@
                 <div class="col-12 mt-1">
                     <!-- Icones dos apps -->
                     <div id="social-icons-content">
-                        <p class="btn-footer"><a href="https://wa.me/5511970484620" target="_blanck"
-                                title="Encaminhará o usuário para meu whatsapp"><i
-                                    class="fa-brands fa-whatsapp icon icon1"></i></a></p>
-                        <p class="btn-footer"><a href="mailto:mickaelbpsouza@gmail.com" target="_blanck"
-                                title="Encaminhará o usuário para meu email"><i
-                                    class="fa fa-envelope icon icon2"></i></a></p>
-                        <p class="btn-footer"><a
-                                href="https://www.linkedin.com/in/mickael-fernandes-bispo-de-souza-8ab2b01b8/ "
-                                target="_blanck" title="Encaminhará o usuário para meu linkedin"><i
-                                    class="fa-brands fa-linkedin icon icon3"></i></a></p>
-                        <p class="btn-footer"><a href="https://github.com/MickaelFernandes77" target="_blanck"
-                                title="Encaminhará o usuário para meu github"><i
-                                    class="fa-brands fa-github icon icon4"></i></a></p>
+                        <a href="https://wa.me/5511970484620" class="btn-footer" target="_blanck"
+                            title="Encaminhará o usuário para meu whatsapp"><i
+                                class="fa-brands fa-whatsapp icon icon1"></i></a>
+                        <a href="mailto:mickaelbpsouza@gmail.com" class="btn-footer" target="_blanck"
+                            title="Encaminhará o usuário para meu email"><i class="fa fa-envelope icon icon2"></i></a>
+                        <a href="https://www.linkedin.com/in/mickael-fernandes-bispo-de-souza-8ab2b01b8/ "
+                            class="btn-footer" target="_blanck" title="Encaminhará o usuário para meu linkedin"><i
+                                class="fa-brands fa-linkedin icon icon3"></i></a>
+                        <a href="https://github.com/MickaelFernandes77" class="btn-footer" target="_blanck"
+                            title="Encaminhará o usuário para meu github"><i
+                                class="fa-brands fa-github icon icon4"></i></a>
                     </div>
                     <!-- Fim Icones dos apps -->
                 </div>

@@ -1,0 +1,543 @@
+@media (max-width: 375px) {
+  body {
+    height: 100%;
+  }
+
+  //home
+  .home {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+  }
+
+  .mickael1 {
+    display: none;
+  }
+
+  .scrollButton {
+    display: none !important;
+  }
+
+  /* sobre */
+  #about {
+    height: 460px;
+
+    .aboutTextContainer {
+      margin-top: 3%;
+    }
+
+    .mickael2 {
+      display: none;
+    }
+  }
+
+  /* projetos */
+  .projects {
+    height: 4000px;
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      width: 100%;
+      margin-top: 8%;
+    }
+  }
+
+  /* habilidades */
+  .skills {
+    height: 160px;
+
+    .skillsIcons {
+      font-size: 55px !important;
+      cursor: pointer;
+    }
+  }
+
+  /* footer */
+  .footer {
+    height: 300px;
+
+    #social-icons-content {
+      display: flex;
+      justify-content: center;
+      margin-top: 3%;
+      margin-left: 0;
+      .btn-footer {
+        font-size: 28px;
+        border: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  body {
+    height: 100%;
+  }
+
+  //home
+  .home {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+  }
+
+  .mickael1 {
+    display: none;
+  }
+
+  .scrollButton {
+    display: none !important;
+  }
+
+  /* sobre */
+  #about {
+    height: 460px;
+
+    .aboutTextContainer {
+      margin-top: 3%;
+    }
+
+    .mickael2 {
+      display: none;
+    }
+  }
+
+  /* projetos */
+  .projects {
+    height: 3900px;
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      width: 100%;
+      margin-top: 8%;
+    }
+  }
+
+  /* habilidades */
+  .skills {
+    height: 180px;
+
+    .skillsIcons {
+      font-size: 55px !important;
+      cursor: pointer;
+    }
+  }
+
+  /* footer */
+  .footer {
+    height: 280px;
+
+    #social-icons-content {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 3%;
+      margin-left: 0;
+      .btn-footer {
+        font-size: 28px;
+        border: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 425px) and (max-width: 486px) {
+  body {
+    height: 100%;
+  }
+
+  //home
+  .home {
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mickael1 {
+    display: none;
+  }
+
+  .scrollButton {
+    display: none !important;
+  }
+
+  /* sobre */
+  #about {
+    height: 400px;
+
+    .aboutTextContainer {
+      margin-top: 3%;
+    }
+
+    .mickael2 {
+      display: none;
+    }
+  }
+
+  /* projetos */
+  .projects {
+    height: 3850px;
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      width: 100%;
+      margin-top: 8%;
+
+      .card-title {
+        margin-left: 44%;
+      }
+    }
+  }
+
+  /* habilidades */
+  .skills {
+    height: 180px;
+
+    .skillsIcons {
+      font-size: 55px !important;
+      cursor: pointer;
+    }
+  }
+
+  /* footer */
+  .footer {
+    height: 250px;
+
+    #social-icons-content {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 3%;
+      margin-left: 0;
+      .btn-footer {
+        font-size: 28px;
+        border: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 486px) and (max-width: 550px) {
+  body {
+    height: 100%;
+  }
+
+  //home
+  .home {
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mickael1 {
+    display: none;
+  }
+
+  .scrollButton {
+    display: none !important;
+  }
+
+  /* sobre */
+  #about {
+    height: 380px;
+
+    .aboutTextContainer {
+      margin-top: 3%;
+    }
+
+    .mickael2 {
+      display: none;
+    }
+  }
+
+  /* projetos */
+  .projects {
+    height: 3770px;
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      width: 100%;
+      margin-top: 8%;
+
+      .card-title {
+        margin-left: 45%;
+      }
+    }
+  }
+
+  /* habilidades */
+  .skills {
+    height: 180px;
+
+    .skillsIcons {
+      font-size: 55px !important;
+      cursor: pointer;
+    }
+  }
+
+  /* footer */
+  .footer {
+    height: 250px;
+
+    #social-icons-content {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 3%;
+      margin-left: 0;
+      .btn-footer {
+        font-size: 28px;
+        border: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 550px) and (max-width: 576px) {
+  body {
+    height: 100%;
+  }
+
+  //home
+  .home {
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mickael1 {
+    display: none;
+  }
+
+  .scrollButton {
+    display: none !important;
+  }
+
+  /* sobre */
+  #about {
+    height: 380px;
+
+    .aboutTextContainer {
+      margin-top: 3%;
+    }
+
+    .mickael2 {
+      display: none;
+    }
+  }
+
+  /* projetos */
+  .projects {
+    height: 3805px;
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      width: 100%;
+      margin-top: 8%;
+
+      .card-title {
+        margin-left: 45%;
+      }
+    }
+  }
+
+  /* habilidades */
+  .skills {
+    height: 180px;
+
+    .skillsIcons {
+      font-size: 55px !important;
+      cursor: pointer;
+    }
+  }
+
+  /* footer */
+  .footer {
+    height: 230px;
+
+    #social-icons-content {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 3%;
+      margin-left: 0;
+      .btn-footer {
+        font-size: 28px;
+        border: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    height: 100%;
+  }
+
+  //home
+  .home {
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mickael1 {
+    display: none;
+  }
+
+  .scrollButton {
+    display: none !important;
+  }
+
+  /* sobre */
+  #about {
+    height: 380px;
+
+    .aboutTextContainer {
+      margin-top: 3%;
+    }
+
+    .mickael2 {
+      display: none;
+    }
+  }
+
+  /* projetos */
+  .projects {
+    height: 3800px;
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      width: 100%;
+      margin-top: 8%;
+
+      .card-title {
+        margin-left: 45%;
+      }
+    }
+  }
+
+  /* habilidades */
+  .skills {
+    height: 180px;
+
+    .skillsIcons {
+      font-size: 55px !important;
+      cursor: pointer;
+    }
+  }
+
+  /* footer */
+  .footer {
+    height: 230px;
+
+    #social-icons-content {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 3%;
+      margin-left: 0;
+      .btn-footer {
+        font-size: 28px;
+        border: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  body {
+    height: 100%;
+  }
+
+  //home
+  .home {
+    height: 400px;
+    display: flex;
+  }
+
+  .mickael1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .scrollButton {
+    display: none !important;
+  }
+
+  /* sobre */
+  #about {
+    height: 450px;
+
+    .aboutTextContainer {
+      margin-top: 3%;
+    }
+
+    .mickael2 {
+      display: block;
+    }
+  }
+
+  /* projetos */
+  .projects {
+    height: 3920px;
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      width: 100%;
+      margin-top: 8%;
+
+      .card-title {
+        height: 55px;
+        margin-left: 46%;
+        padding-top: 5.5px;
+      }
+    }
+  }
+
+  /* habilidades */
+  .skills {
+    height: 180px;
+
+    .skillsIcons {
+      font-size: 55px !important;
+      cursor: pointer;
+    }
+  }
+
+  /* footer */
+  .footer {
+    height: 230px;
+
+    #social-icons-content {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 3%;
+      margin-left: 0;
+      .btn-footer {
+        font-size: 28px;
+        border: solid 1px $tertiary;
+        border-radius: 20%;
+      }
+    }
+  }
+}
+
+@media (min-width: 991.98px) and (max-width: 1200px) {
+  /* Projetos */
+  .projects {
+    height: 1450px;;
+  }
+
+  /* footer */
+  .footer {
+    height: 250px;
+  }
+
+  .scrollButton {
+    display: none !important;
+  }
+}

@@ -1,0 +1,34 @@
+header {
+  background-color: $secondary;
+  font-family: "Ubuntu", sans-serif;
+
+  #logo {
+    font-size: 30px;
+    color: $tertiary;
+    font-weight: 600;
+
+    span {
+      color: $primary;
+    }
+  }
+
+  .btn-menu {
+    border: solid 1px $tertiary;
+    > i {
+      color: #fff;
+    }
+  }
+
+  /* Menu de navegação */
+  ul {
+    list-style-type: none;
+
+    .list-item {
+      color: $tertiary;
+    }
+    &:hover {
+      color: $primary;
+      transition: 0.65s;
+    }
+  }
+}

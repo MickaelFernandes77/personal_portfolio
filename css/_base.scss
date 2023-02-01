@@ -1,0 +1,32 @@
+$primary: #dc143c;
+$primaryTwo: #aa0b2b;
+$secondary: #000;
+$tertiary: #fff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* esconder scrollbar no: chrome, safari, edge, opera */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* esconder scrollbar no: internet explorer*/
+body {
+  -ms-overflow-style: none;
+}
+
+/* esconder scrollbar no: firefox*/
+html {
+  scrollbar-width: none;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}

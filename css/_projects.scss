@@ -1,0 +1,54 @@
+/* Projetos */
+.projects {
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  background-color: $secondary;
+  height: 1380px;
+
+  #projectTitle {
+    font-weight: 600px;
+    color: $tertiary;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  /* cards */
+  .card {
+    width: 50%;
+    height: 100%;
+    margin-right: 2%;
+    background-color: $primary;
+    &:hover {
+      transform: translateY(-15px);
+      transition: 0.75s;
+    }
+
+    .card-title {
+      border-radius: 50%;
+      height: 60px;
+      width: 60px;
+      text-align: center;
+      padding-top: 10px;
+      padding-right: 1.5px;
+      margin-top: 2%;
+      margin-left: 42%;
+      font-size: 28px;
+      font-weight: 500;
+      background-color: $secondary;
+      color: $primary;
+    }
+
+    .card-subtitle {
+      text-align: center;
+      color: $tertiary;
+      font-size: 26px;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+
+    .card-text {
+      color: $tertiary;
+      font-size: 18px;
+    }
+  }
+}

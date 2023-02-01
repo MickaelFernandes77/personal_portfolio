@@ -1,0 +1,46 @@
+/* footer */
+.footer {
+  height: 205px;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  background-color: $secondary;
+  margin-top: 2%;
+
+  .footerTitle {
+    color: $tertiary;
+    margin-top: 2%;
+  }
+
+  .footerText {
+    font-size: 23px;
+    color: $tertiary;
+  }
+
+  #social-icons-content {
+    margin-top: 2%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+
+    .btn-footer {
+      font-size: 25px;
+      height: 45px;
+      width: 45px;
+      color: $primary;
+      border: solid 1px $tertiary;
+      border-radius: 20%;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        background-color: $tertiary;
+        transition: 0.35s;
+      }
+
+      .icon {
+        color: $primary;
+        margin-top: 6.5px;
+        font-size: 27px;
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+/* Home */
+.home {
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  background-color: $secondary;
+
+  .text-1 {
+    font-size: 27px;
+    color: $tertiary;
+  }
+
+  .text-2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: $tertiary;
+  }
+
+  .text-3 {
+    font-size: 27px;
+    margin: 5px 0;
+    color: $tertiary;
+
+    span {
+      color: $primary;
+    }
+  }
+
+  img {
+    height: 100%;
+  }
+
+  .mickael1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  #hireBtn {
+    background-color: $primary;
+    color: $tertiary;
+    text-decoration: none;
+    width: 50%;
+    margin-top: 2%;
+    &:hover {
+      background-color: $primaryTwo;
+      transition: 0.5s;
+    }
+  }
+
+  .scrollButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: $primary;
+    position: fixed;
+    z-index: 999;
+    cursor: pointer;
+    left: 95%;
+    top: 80%;
+    font-size: 20px;
+    color: none;
+    &:hover {
+      background-color: $primaryTwo;
+      transition: 0.5s;
+    }
+
+    i {
+      color: $tertiary;
+      outline: none;
+    }
+  }
+}

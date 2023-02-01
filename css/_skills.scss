@@ -1,0 +1,42 @@
+/* habilidades */
+.skills {
+  height: 215px;
+
+  #skillsTitle {
+    font-weight: 700;
+  }
+
+  #containerSkills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    .skillsIcons {
+      font-size: 80px;
+      cursor: pointer;
+      &:hover {
+        font-size: 95px;
+        transition: 0.5s;
+      }
+    }
+
+    #js {
+      color: #f0db4f;
+    }
+
+    #html {
+      color: #e34c26;
+    }
+
+    #css {
+      color: #2965f1;
+    }
+
+    #bootstrap {
+      color: #563d7c;
+    }
+
+    #sass {
+      color: #cc6699;
+    }
+  }
+}
