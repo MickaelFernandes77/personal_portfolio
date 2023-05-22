@@ -9,6 +9,10 @@ $tertiary: #fff;
   box-sizing: border-box;
 }
 
+.textWhite {
+  color: $tertiary;
+}
+
 /* esconder scrollbar no: chrome, safari, edge, opera */
 
 ::-webkit-scrollbar {

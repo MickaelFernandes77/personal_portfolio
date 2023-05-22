@@ -3,6 +3,14 @@
     height: 100%;
   }
 
+  header {
+
+    #logo > img {
+      height: 60px;
+      width: 200px;
+    }
+  }
+
   //home
   .home {
     display: flex;
@@ -529,7 +537,7 @@
 @media (min-width: 991.98px) and (max-width: 1200px) {
   /* Projetos */
   .projects {
-    height: 1450px;;
+    height: 1450px;
   }
 
   /* footer */
