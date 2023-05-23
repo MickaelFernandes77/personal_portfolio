@@ -4,7 +4,6 @@
   }
 
   header {
-
     #logo > img {
       height: 60px;
       width: 200px;
@@ -83,6 +82,13 @@
     height: 100%;
   }
 
+  header {
+    #logo > img {
+      height: 70px;
+      width: 250px;
+    }
+  }
+
   //home
   .home {
     display: flex;
@@ -153,6 +159,13 @@
 @media (min-width: 425px) and (max-width: 486px) {
   body {
     height: 100%;
+  }
+
+  header {
+    #logo > img {
+      height: 70px;
+      width: 250px;
+    }
   }
 
   //home
@@ -231,6 +244,12 @@
     height: 100%;
   }
 
+  header {
+    #logo > img {
+      height: 80px;
+      width: 280px;
+    }
+  }
   //home
   .home {
     height: 335px;
@@ -307,6 +326,13 @@
     height: 100%;
   }
 
+  header {
+    #logo > img {
+      height: 80px;
+      width: 180px;
+    }
+  }
+
   //home
   .home {
     height: 335px;
@@ -381,6 +407,12 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   body {
     height: 100%;
+  }
+
+  header {
+    #logo > img {
+      width: 185px;
+    }
   }
 
   //home

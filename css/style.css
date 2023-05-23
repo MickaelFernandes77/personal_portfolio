@@ -280,6 +280,10 @@ header {
   body {
     height: 100%; }
 
+  header #logo > img {
+    height: 70px;
+    width: 250px; }
+
   .home {
     display: flex;
     flex-direction: column;
@@ -329,6 +333,10 @@ header {
 @media (min-width: 425px) and (max-width: 486px) {
   body {
     height: 100%; }
+
+  header #logo > img {
+    height: 70px;
+    width: 250px; }
 
   .home {
     height: 385px;
@@ -382,6 +390,10 @@ header {
   body {
     height: 100%; }
 
+  header #logo > img {
+    height: 80px;
+    width: 280px; }
+
   .home {
     height: 335px;
     display: flex;
@@ -434,6 +446,10 @@ header {
   body {
     height: 100%; }
 
+  header #logo > img {
+    height: 80px;
+    width: 180px; }
+
   .home {
     height: 335px;
     display: flex;
@@ -485,6 +501,9 @@ header {
 @media (min-width: 576px) and (max-width: 767.98px) {
   body {
     height: 100%; }
+
+  header #logo > img {
+    width: 185px; }
 
   .home {
     height: 335px;
